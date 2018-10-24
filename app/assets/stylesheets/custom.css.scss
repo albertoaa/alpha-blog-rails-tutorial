@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import 'bootstrap';
 
 .bg-light {
   background-color: #08088a !important;
@@ -16,6 +16,11 @@
 #logo-hover {
   color: #fff;
   text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
 }
 
 .center {
@@ -37,7 +42,8 @@
     height: 100%;
   }
 
-  h1, p {
+  h1,
+  p {
     color: #fff;
   }
   h1 {
@@ -52,7 +58,7 @@
   background-color: black;
   font-size: 1.7em;
   border: 1px solid #fff;
-  width: 30%;   
+  width: 30%;
 }
 
 .article-actions {
@@ -82,7 +88,7 @@ footer {
   ul {
     float: right;
     list-style: none;
-    
+
     li {
       float: left;
       margin-left: 15px;
