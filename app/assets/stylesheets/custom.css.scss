@@ -1,7 +1,7 @@
 @import 'bootstrap';
 
 .bg-light {
-  background-color: #08088a !important;
+  background-color: lightgray !important;
 }
 
 #logo {
@@ -20,6 +20,15 @@
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+a.navbar-link,
+strong {
+  margin: 10px;
+}
+
+li.nav-item {
   color: #fff;
 }
 
